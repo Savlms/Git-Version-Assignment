@@ -15,3 +15,19 @@ Git is a distributed version control system, while GitHub is a web-based platfor
 `git fetch` retrieves changes from the remote repository without merging them into your working branch, while `git pull` fetches and merges changes into your working branch.
 `git fetch` also updates your remote-tracking branches, this operation is safe to run at any time since it never changes any of your local branches. while `git pull` brings a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
 
+### Git Rebase
+Git rebase is a command used to integrate changes from one branch into another. It moves or combines a sequence of commits to a new base commit.
+
+Command for Git Rebase:
+```bash
+git rebase target-branch
+
+## Git Cherry-pick
+Git cherry-pick is a command used to apply a specific commit from one branch to another. It allows you to select a commit and apply it onto the current branch.
+
+**Command:**
+```bash
+git cherry-pick <commit-hash>
+
+where the "commit-hash" is the actual hash of the commit you want to apply.
+
