@@ -10,3 +10,8 @@ Git is a distributed version control system, while GitHub is a web-based platfor
 1. GitLab
 2. Bitbucket
 3. Gitea
+
+### Git Fetch vs Git Pull
+`git fetch` retrieves changes from the remote repository without merging them into your working branch, while `git pull` fetches and merges changes into your working branch.
+`git fetch` also updates your remote-tracking branches, this operation is safe to run at any time since it never changes any of your local branches. while `git pull` brings a local branch up-to-date with its remote version, while also updating your other remote-tracking branches.
+
